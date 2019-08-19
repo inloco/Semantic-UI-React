@@ -18,7 +18,7 @@ import {
 function Container(props) {
   const { children, className, content, fluid, text, textAlign } = props
   const classes = cx(
-    'ui',
+    'orion',
     useKeyOnly(text, 'text'),
     useKeyOnly(fluid, 'fluid'),
     useTextAlignProp(textAlign),
