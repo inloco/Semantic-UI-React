@@ -20,10 +20,17 @@ When Semantic UI React releases a new version, you should follow theses steps:
 
 3. Replace the package name from `semantic-ui-react` to `@inloco/semantic-ui-react`.
 
-4. Commit and push them.
+4. Delete the local and remote tag:
 
-5. publish it: `yarn publish`. Use the same version of the semantic-ui-react package.
+```bash
+git tag -d v0.87.3
+git push origin :refs/tags/v0.87.3
+```
 
-6. It is done. You can upgrade Orion package with the new version.
+5. Commit and push the branch.
+
+6. publish it: `yarn publish`. Use the same version of the semantic-ui-react package.
+
+7. It is done. You can upgrade Orion package with the new version.
 
 OBS: We do NOT create PR or merge this branch to master, since we are only replicating the versions created by Semantic UI React.
