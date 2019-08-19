@@ -68,7 +68,7 @@ export default class Label extends Component {
       ((pointing === 'above' || pointing === 'below') && `pointing ${pointing}`)
 
     const classes = cx(
-      'ui',
+      'orion',
       color,
       pointingClass,
       size,

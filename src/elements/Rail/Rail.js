@@ -30,7 +30,7 @@ function Rail(props) {
   } = props
 
   const classes = cx(
-    'ui',
+    'orion',
     position,
     size,
     useKeyOnly(attached, 'attached'),

@@ -51,7 +51,7 @@ function Image(props) {
   } = props
 
   const classes = cx(
-    useKeyOnly(ui, 'ui'),
+    useKeyOnly(ui, 'orion'),
     size,
     useKeyOnly(avatar, 'avatar'),
     useKeyOnly(bordered, 'bordered'),

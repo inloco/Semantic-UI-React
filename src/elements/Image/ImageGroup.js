@@ -9,7 +9,7 @@ import { childrenUtils, customPropTypes, getElementType, getUnhandledProps, SUI 
  */
 function ImageGroup(props) {
   const { children, className, content, size } = props
-  const classes = cx('ui', size, className, 'images')
+  const classes = cx('orion', size, className, 'images')
   const rest = getUnhandledProps(ImageGroup, props)
   const ElementType = getElementType(ImageGroup, props)
 

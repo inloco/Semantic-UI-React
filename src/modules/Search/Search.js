@@ -327,7 +327,7 @@ export default class Search extends Component {
     debug('scrollSelectedItemIntoView()')
     // Do not access document when server side rendering
     if (!isBrowser()) return
-    const menu = document.querySelector('.ui.search.active.visible .results.visible')
+    const menu = document.querySelector('.orion.search.active.visible .results.visible')
     if (!menu) return
     debug(`menu (results): ${menu}`)
     const item = menu.querySelector('.result.active')
@@ -480,7 +480,7 @@ export default class Search extends Component {
 
     // Classes
     const classes = cx(
-      'ui',
+      'orion',
       open && 'active visible',
       size,
       searchClasses,

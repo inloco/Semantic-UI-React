@@ -36,7 +36,7 @@ function Statistic(props) {
   } = props
 
   const classes = cx(
-    'ui',
+    'orion',
     color,
     size,
     useValueAndKey(floated, 'floated'),

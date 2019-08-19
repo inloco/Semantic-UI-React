@@ -21,7 +21,7 @@ function ModalDimmer(props) {
   const ref = React.useRef()
 
   const classes = cx(
-    'ui',
+    'orion',
     useKeyOnly(inverted, 'inverted'),
     useKeyOnly(!centered, 'top aligned'),
     'page modals dimmer transition visible active',

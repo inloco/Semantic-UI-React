@@ -19,7 +19,7 @@ function SegmentGroup(props) {
   const { children, className, compact, content, horizontal, piled, raised, size, stacked } = props
 
   const classes = cx(
-    'ui',
+    'orion',
     size,
     useKeyOnly(compact, 'compact'),
     useKeyOnly(horizontal, 'horizontal'),

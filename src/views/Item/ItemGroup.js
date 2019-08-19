@@ -20,7 +20,7 @@ function ItemGroup(props) {
   const { children, className, content, divided, items, link, relaxed, unstackable } = props
 
   const classes = cx(
-    'ui',
+    'orion',
     useKeyOnly(divided, 'divided'),
     useKeyOnly(link, 'link'),
     useKeyOnly(unstackable, 'unstackable'),

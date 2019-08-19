@@ -44,7 +44,7 @@ function Header(props) {
   } = props
 
   const classes = cx(
-    'ui',
+    'orion',
     color,
     size,
     useKeyOnly(block, 'block'),

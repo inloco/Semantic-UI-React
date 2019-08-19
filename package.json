@@ -1,5 +1,5 @@
 {
-  "name": "semantic-ui-react",
+  "name": "@inloco/semantic-ui-react",
   "version": "2.0.1",
   "description": "The official Semantic-UI-React integration.",
   "jsnext:main": "dist/es/index.js",
@@ -58,14 +58,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://github.com/Semantic-Org/Semantic-UI-React.git"
+    "url": "git+ssh://github.com/inloco/Semantic-UI-React.git"
   },
   "author": "Levi Thomason <me@levithomason.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Semantic-Org/Semantic-UI-React/issues"
+    "url": "https://github.com/inloco/Semantic-UI-React/issues"
   },
-  "homepage": "https://github.com/Semantic-Org/Semantic-UI-React#readme",
+  "homepage": "https://github.com/inloco/Semantic-UI-React#readme",
   "dependencies": {
     "@babel/runtime": "^7.10.5",
     "@fluentui/react-component-event-listener": "~0.51.1",

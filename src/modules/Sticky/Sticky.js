@@ -238,13 +238,13 @@ export default class Sticky extends Component {
     const ElementType = getElementType(Sticky, this.props)
 
     const containerClasses = cx(
-      sticky && 'ui',
+      sticky && 'orion',
       sticky && 'stuck-container',
       sticky && (bound ? 'bound-container' : 'fixed-container'),
       className,
     )
     const elementClasses = cx(
-      'ui',
+      'orion',
       sticky && (bound ? 'bound bottom' : 'fixed'),
       sticky && !bound && (bottom === null ? 'top' : 'bottom'),
       'sticky',

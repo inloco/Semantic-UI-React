@@ -45,7 +45,7 @@ function ButtonGroup(props) {
   } = props
 
   const classes = cx(
-    'ui',
+    'orion',
     color,
     size,
     useKeyOnly(basic, 'basic'),

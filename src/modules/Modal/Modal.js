@@ -174,7 +174,7 @@ class Modal extends Component {
     const { legacyStyles, scrolling } = this.state
 
     const classes = cx(
-      'ui',
+      'orion',
       size,
       useKeyOnly(basic, 'basic'),
       useKeyOnly(this.legacy, 'legacy'),

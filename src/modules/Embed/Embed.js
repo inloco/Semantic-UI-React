@@ -68,7 +68,7 @@ export default class Embed extends Component {
     const { aspectRatio, className, icon, placeholder } = this.props
     const { active } = this.state
 
-    const classes = cx('ui', aspectRatio, useKeyOnly(active, 'active'), 'embed', className)
+    const classes = cx('orion', aspectRatio, useKeyOnly(active, 'active'), 'embed', className)
     const rest = getUnhandledProps(Embed, this.props)
     const ElementType = getElementType(Embed, this.props)
 

@@ -41,7 +41,7 @@ function Grid(props) {
   } = props
 
   const classes = cx(
-    'ui',
+    'orion',
     useKeyOnly(centered, 'centered'),
     useKeyOnly(container, 'container'),
     useKeyOnly(doubling, 'doubling'),

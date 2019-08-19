@@ -52,7 +52,7 @@ class Form extends Component {
     } = this.props
 
     const classes = cx(
-      'ui',
+      'orion',
       size,
       useKeyOnly(error, 'error'),
       useKeyOnly(inverted, 'inverted'),

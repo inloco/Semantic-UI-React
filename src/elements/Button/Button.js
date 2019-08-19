@@ -126,8 +126,8 @@ class Button extends Component {
     const tabIndex = this.computeTabIndex(ElementType)
 
     if (!_.isNil(label)) {
-      const buttonClasses = cx('ui', baseClasses, 'button', className)
-      const containerClasses = cx('ui', labeledClasses, 'button', className, wrapperClasses)
+      const buttonClasses = cx('orion', baseClasses, 'button', className)
+      const containerClasses = cx('orion', labeledClasses, 'button', className, wrapperClasses)
       const labelElement = Label.create(label, {
         defaultProps: {
           basic: true,
@@ -154,7 +154,7 @@ class Button extends Component {
       )
     }
 
-    const classes = cx('ui', baseClasses, wrapperClasses, labeledClasses, 'button', className)
+    const classes = cx('orion', baseClasses, wrapperClasses, labeledClasses, 'button', className)
     const hasChildren = !childrenUtils.isNil(children)
     const role = this.computeButtonAriaRole(ElementType)
 
