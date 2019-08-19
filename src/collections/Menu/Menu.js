@@ -163,7 +163,7 @@ class Menu extends Component {
       widths,
     } = this.props
     const classes = cx(
-      'ui',
+      'orion',
       color,
       size,
       useKeyOnly(borderless, 'borderless'),

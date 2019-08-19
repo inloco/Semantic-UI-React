@@ -160,7 +160,7 @@ class Progress extends Component {
     } = this.props
 
     const classes = cx(
-      'ui',
+      'orion',
       color,
       size,
       useKeyOnly(active || indicating, 'active'),

@@ -38,7 +38,7 @@ function StepGroup(props) {
     widths,
   } = props
   const classes = cx(
-    'ui',
+    'orion',
     size,
     useKeyOnly(fluid, 'fluid'),
     useKeyOnly(ordered, 'ordered'),

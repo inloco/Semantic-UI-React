@@ -125,7 +125,7 @@ class List extends Component {
     } = this.props
 
     const classes = cx(
-      'ui',
+      'orion',
       size,
       useKeyOnly(animated, 'animated'),
       useKeyOnly(bulleted, 'bulleted'),

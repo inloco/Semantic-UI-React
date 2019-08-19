@@ -13,7 +13,7 @@ import BreadcrumbSection from './BreadcrumbSection'
 function Breadcrumb(props) {
   const { children, className, divider, icon, sections, size } = props
 
-  const classes = cx('ui', size, 'breadcrumb', className)
+  const classes = cx('orion', size, 'breadcrumb', className)
   const rest = getUnhandledProps(Breadcrumb, props)
   const ElementType = getElementType(Breadcrumb, props)
 

@@ -58,7 +58,7 @@ function Table(props) {
   } = props
 
   const classes = cx(
-    'ui',
+    'orion',
     color,
     size,
     useKeyOnly(celled, 'celled'),

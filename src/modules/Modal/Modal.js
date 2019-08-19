@@ -313,7 +313,7 @@ class Modal extends Component {
     const { legacyStyles, mountClasses, scrolling } = this.state
 
     const classes = cx(
-      'ui',
+      'orion',
       size,
       useKeyOnly(basic, 'basic'),
       useKeyOnly(this.legacy, 'legacy'),
@@ -372,7 +372,7 @@ class Modal extends Component {
 
     // wrap dimmer modals
     const dimmerClasses = cx(
-      'ui',
+      'orion',
       dimmer === 'inverted' && 'inverted',
       !centered && 'top aligned',
       'page modals dimmer transition visible active',
