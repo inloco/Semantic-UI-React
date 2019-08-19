@@ -18,7 +18,7 @@ function Reveal(props) {
   const { active, animated, children, className, content, disabled, instant } = props
 
   const classes = cx(
-    'ui',
+    'orion',
     animated,
     useKeyOnly(active, 'active'),
     useKeyOnly(disabled, 'disabled'),

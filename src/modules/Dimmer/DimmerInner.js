@@ -119,7 +119,7 @@ export default class DimmerInner extends Component {
     } = this.props
 
     const classes = cx(
-      'ui',
+      'orion',
       useKeyOnly(active, 'active transition visible'),
       useKeyOnly(disabled, 'disabled'),
       useKeyOnly(inverted, 'inverted'),

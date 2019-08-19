@@ -175,7 +175,7 @@ class Sidebar extends Component {
     const { animationTick } = this.state
 
     const classes = cx(
-      'ui',
+      'orion',
       animation,
       direction,
       width,

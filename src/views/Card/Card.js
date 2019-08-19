@@ -109,7 +109,7 @@ export default class Card extends Component {
     } = this.props
 
     const classes = cx(
-      'ui',
+      'orion',
       color,
       useKeyOnly(centered, 'centered'),
       useKeyOnly(fluid, 'fluid'),

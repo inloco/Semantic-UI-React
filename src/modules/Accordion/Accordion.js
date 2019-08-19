@@ -15,7 +15,7 @@ function Accordion(props) {
   const { className, fluid, inverted, styled } = props
 
   const classes = cx(
-    'ui',
+    'orion',
     useKeyOnly(fluid, 'fluid'),
     useKeyOnly(inverted, 'inverted'),
     useKeyOnly(styled, 'styled'),

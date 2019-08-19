@@ -17,7 +17,7 @@ function Advertisement(props) {
   const { centered, children, className, content, test, unit } = props
 
   const classes = cx(
-    'ui',
+    'orion',
     unit,
     useKeyOnly(centered, 'centered'),
     useKeyOnly(test, 'test'),

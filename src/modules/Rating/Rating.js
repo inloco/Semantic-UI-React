@@ -105,7 +105,7 @@ export default class Rating extends Component {
     const { rating, selectedIndex, isSelecting } = this.state
 
     const classes = cx(
-      'ui',
+      'orion',
       icon,
       size,
       useKeyOnly(disabled, 'disabled'),

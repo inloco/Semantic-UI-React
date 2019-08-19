@@ -131,7 +131,7 @@ export default class Message extends Component {
     } = this.props
 
     const classes = cx(
-      'ui',
+      'orion',
       color,
       size,
       useKeyOnly(compact, 'compact'),
