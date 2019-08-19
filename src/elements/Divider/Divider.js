@@ -28,7 +28,7 @@ function Divider(props) {
   } = props
 
   const classes = cx(
-    'ui',
+    'orion',
     useKeyOnly(clearing, 'clearing'),
     useKeyOnly(fitted, 'fitted'),
     useKeyOnly(hidden, 'hidden'),

@@ -32,7 +32,7 @@ function CardGroup(props) {
   } = props
 
   const classes = cx(
-    'ui',
+    'orion',
     useKeyOnly(centered, 'centered'),
     useKeyOnly(doubling, 'doubling'),
     useKeyOnly(stackable, 'stackable'),

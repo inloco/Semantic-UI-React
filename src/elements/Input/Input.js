@@ -179,7 +179,7 @@ class Input extends Component {
     } = this.props
 
     const classes = cx(
-      'ui',
+      'orion',
       size,
       useKeyOnly(disabled, 'disabled'),
       useKeyOnly(error, 'error'),

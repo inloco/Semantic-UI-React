@@ -45,7 +45,7 @@ function ButtonGroup(props) {
   } = props
 
   const classes = cx(
-    'ui',
+    'orion',
     color,
     size,
     useKeyOnly(basic, 'basic'),
@@ -79,7 +79,7 @@ function ButtonGroup(props) {
 
   return (
     <ElementType {...rest} className={classes}>
-      {_.map(buttons, button => Button.create(button))}
+      {_.map(buttons, (button) => Button.create(button))}
     </ElementType>
   )
 }

@@ -20,7 +20,7 @@ import FeedUser from './FeedUser'
 function Feed(props) {
   const { children, className, events, size } = props
 
-  const classes = cx('ui', size, 'feed', className)
+  const classes = cx('orion', size, 'feed', className)
   const rest = getUnhandledProps(Feed, props)
   const ElementType = getElementType(Feed, props)
 

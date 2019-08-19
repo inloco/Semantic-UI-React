@@ -30,7 +30,7 @@ function Loader(props) {
   } = props
 
   const classes = cx(
-    'ui',
+    'orion',
     size,
     useKeyOnly(active, 'active'),
     useKeyOnly(disabled, 'disabled'),

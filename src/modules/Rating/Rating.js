@@ -106,7 +106,7 @@ export default class Rating extends Component {
     const { rating, selectedIndex, isSelecting } = this.state
 
     const classes = cx(
-      'ui',
+      'orion',
       icon,
       size,
       useKeyOnly(disabled, 'disabled'),
@@ -125,7 +125,7 @@ export default class Rating extends Component {
         onMouseLeave={this.handleMouseLeave}
         tabIndex={disabled ? 0 : -1}
       >
-        {_.times(maxRating, i => (
+        {_.times(maxRating, (i) => (
           <RatingIcon
             tabIndex={disabled ? -1 : 0}
             active={rating >= i + 1}

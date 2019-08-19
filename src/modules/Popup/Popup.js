@@ -282,7 +282,7 @@ export default class Popup extends Component {
     this.positionUpdate = scheduleUpdate
 
     const classes = cx(
-      'ui',
+      'orion',
       placementMapping[popperPlacement],
       size,
       useKeyOrValueAndKey(wide, 'wide'),

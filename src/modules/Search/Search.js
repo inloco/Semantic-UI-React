@@ -625,7 +625,7 @@ export default class Search extends Component {
 
     // Classes
     const classes = cx(
-      'ui',
+      'orion',
       open && 'active visible',
       size,
       searchClasses,

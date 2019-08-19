@@ -38,7 +38,7 @@ function StepGroup(props) {
     widths,
   } = props
   const classes = cx(
-    'ui',
+    'orion',
     size,
     useKeyOnly(fluid, 'fluid'),
     useKeyOnly(ordered, 'ordered'),
@@ -70,7 +70,7 @@ function StepGroup(props) {
 
   return (
     <ElementType {...rest} className={classes}>
-      {_.map(items, item => Step.create(item))}
+      {_.map(items, (item) => Step.create(item))}
     </ElementType>
   )
 }

@@ -36,7 +36,7 @@ function Statistic(props) {
   } = props
 
   const classes = cx(
-    'ui',
+    'orion',
     color,
     size,
     useValueAndKey(floated, 'floated'),
@@ -116,6 +116,6 @@ Statistic.Group = StatisticGroup
 Statistic.Label = StatisticLabel
 Statistic.Value = StatisticValue
 
-Statistic.create = createShorthandFactory(Statistic, content => ({ content }))
+Statistic.create = createShorthandFactory(Statistic, (content) => ({ content }))
 
 export default Statistic

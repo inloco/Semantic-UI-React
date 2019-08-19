@@ -21,7 +21,7 @@ function StatisticGroup(props) {
   const { children, className, color, content, horizontal, inverted, items, size, widths } = props
 
   const classes = cx(
-    'ui',
+    'orion',
     color,
     size,
     useKeyOnly(horizontal, 'horizontal'),
@@ -50,7 +50,7 @@ function StatisticGroup(props) {
 
   return (
     <ElementType {...rest} className={classes}>
-      {_.map(items, item => Statistic.create(item))}
+      {_.map(items, (item) => Statistic.create(item))}
     </ElementType>
   )
 }

@@ -1193,7 +1193,7 @@ export default class Dropdown extends Component {
       search && searchQuery && 'filtered',
     )
     let _text = placeholder
-    
+
     if (text) {
       _text = text
     } else if (open && !multiple) {
@@ -1343,7 +1343,7 @@ export default class Dropdown extends Component {
 
     // Classes
     const classes = cx(
-      'ui',
+      'orion',
       useKeyOnly(open, 'active visible'),
       useKeyOnly(disabled, 'disabled'),
       useKeyOnly(error, 'error'),

@@ -252,7 +252,7 @@ export default class Checkbox extends Component {
     const { checked, indeterminate } = this.state
 
     const classes = cx(
-      'ui',
+      'orion',
       useKeyOnly(checked, 'checked'),
       useKeyOnly(disabled, 'disabled'),
       useKeyOnly(indeterminate, 'indeterminate'),

@@ -20,7 +20,7 @@ import PlaceholderParagraph from './PlaceholderParagraph'
 function Placeholder(props) {
   const { children, className, content, fluid, inverted } = props
   const classes = cx(
-    'ui',
+    'orion',
     useKeyOnly(fluid, 'fluid'),
     useKeyOnly(inverted, 'inverted'),
     'placeholder',

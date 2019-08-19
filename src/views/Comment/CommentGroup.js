@@ -19,7 +19,7 @@ function CommentGroup(props) {
   const { className, children, collapsed, content, minimal, size, threaded } = props
 
   const classes = cx(
-    'ui',
+    'orion',
     size,
     useKeyOnly(collapsed, 'collapsed'),
     useKeyOnly(minimal, 'minimal'),
