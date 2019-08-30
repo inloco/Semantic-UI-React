@@ -18,7 +18,7 @@ function LabelGroup(props) {
   const { children, circular, className, color, content, size, tag } = props
 
   const classes = cx(
-    'ui',
+    'orion',
     color,
     size,
     useKeyOnly(circular, 'circular'),
